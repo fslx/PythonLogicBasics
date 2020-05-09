@@ -26,19 +26,26 @@ def moreLoopExamples():
         break
 
     # Input controlled logic
-    userInput = float(input("Write something cool here: "))
+    userInput = int(input("Write a number: "))
     numArray = []
-    numArray.append(userInput)
     # Let's assume we want to take userinput for a string, so we can append it to the array, then do a for loop using the same array.
-    for num in numArray:
-        print(numArray[0])
+    for y in range(0, userInput):
+        # moreNums = int(input())
+        numArray.append(userInput)
+        print(numArray)
         break
 
     # Now let's test If and while loops using numbers, while concatinating strings to make a simple dynamic little program.
 
-    moreUserInput = float(input)
 
+def ifStatements():
+    moreUserInput = int(input("Write yet another number: "))
     if moreUserInput <= 5:
-        print("Your number is either " + moreUserInput + " " + "or less")
+        print("Your number is ", moreUserInput, "or less")
     elif moreUserInput <= 500:
-        print("Your number is either " + moreUserInput + " " + "or lower")
+        print("Your number is ", moreUserInput, "or less")
+    elif moreUserInput <= 5000000:
+        print("Your number is", moreUserInput, "")
+    else:
+        print("Exiting...")
+        exit()

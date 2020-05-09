@@ -1,9 +1,14 @@
 import time
 
-import fileBrowser
-fileBrowser.loopExamples()
+import loopExamples
+loopExamples.loopExamples()
 
 time.sleep(2)
 
-fileBrowser.moreLoopExamples()
-exit()
+
+loopExamples.moreLoopExamples()
+
+time.sleep(2)
+
+loopExamples.ifStatements()
+
