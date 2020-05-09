@@ -30,7 +30,7 @@ def moreLoopExamples():
     numArray = []
     # Let's assume we want to take userinput for a number, so we can append it to the array, then do a for loop using the same array.
     for y in range(0, userInput):
-        # moreNums = int(input()) # Assume the user wants to input decimal number, we could then switch this up using float(input()) to get the same result.
+        # moreNums = float(input()) # Assume the user wants to input decimal number, we could then switch this up using float(input()) to get the same result.
         numArray.append(userInput)
         print(numArray)
         break
