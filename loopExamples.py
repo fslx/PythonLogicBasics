@@ -26,11 +26,12 @@ def moreLoopExamples():
         break
 
     # Input controlled logic
-    userInput = input("Write something cool here: ")
-    sampleArray.append(userInput)
+    userInput = float(input("Write something cool here: "))
+    numArray = []
+    numArray.append(userInput)
     # Let's assume we want to take userinput for a string, so we can append it to the array, then do a for loop using the same array.
-    for x in sampleArray:
-        print(sampleArray[2])
+    for num in numArray:
+        print(numArray[0])
         break
 
     # Now let's test If and while loops using numbers, while concatinating strings to make a simple dynamic little program.
