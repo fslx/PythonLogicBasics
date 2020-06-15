@@ -19,7 +19,7 @@ def loopExamples():
 
 def moreLoopExamples():
 
-    sampleArray = ["Foo", "Bar", ]
+    sampleArray = ["Foo", "Bar"]
 
     for x in sampleArray:
         print(sampleArray[0])
