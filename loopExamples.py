@@ -40,12 +40,14 @@ def moreLoopExamples():
 
 def ifStatements():
     moreUserInput = int(input("Write yet another number: "))
+    # I try to not use more than a maximum of 1 or 2 elif statements, considering there are better options, Python however does not have a switch statement.
     if moreUserInput <= 5:
         print("Your number is ", moreUserInput, "or less")
     elif moreUserInput <= 500:
         print("Your number is ", moreUserInput, "or less")
     elif moreUserInput <= 5000000:
         print("Your number is", moreUserInput, "")
+    # The else ends the logical conditions and moves the program forward so to say.
     else:
         print("Exiting...")
         exit()
