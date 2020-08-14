@@ -45,6 +45,7 @@ def ifStatements():
         print("Your number is ", moreUserInput, "or less")
     elif moreUserInput <= 500:
         print("Your number is ", moreUserInput, "or less")
+    # This is a very big number, but we could mathematically envision that this number or rather integer is infitnite as long as it is a whole number, so I max it at 5 million as that is probably high enough.
     elif moreUserInput <= 5000000:
         print("Your number is", moreUserInput, "")
     # The else ends the logical conditions and moves the program forward so to say.
