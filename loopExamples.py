@@ -52,3 +52,22 @@ def ifStatements():
     else:
         print("Exiting...")
         exit()
+        
+        
+        
+        
+def whileLoopExample():
+    # I used a number example earlier, but, after reading this code again after about 5-9 months later, I decided that perhaps a boolean would be a better choice
+    # However, running a boolean while loop on it's own might be a bit insecure resourcewise, so, I'll do a simple yes/no input that either starts the loop, or skips it
+    # as the code is read downward by the CPython compiler.
+    # alright, so here is the example.
+        myBool = False
+        myChoice = input(str("Would you like to run a infinite boolean while loop? y/n")).lower() # using the str() method to parse to string, and using the lower() method to make sure the user cannot execute the loop unless "yes" is given.
+        
+        if myChoice == "y":
+            myBool = True
+        else:
+            exit()
+            
+            while myBool:
+                print("this is the while loop")
