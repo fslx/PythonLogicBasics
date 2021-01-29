@@ -71,3 +71,4 @@ def whileLoopExample():
             
             while myBool:
                 print("this is the while loop")
+                break
